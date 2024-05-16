@@ -1,0 +1,17 @@
+{
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  },
+  "resources" : [
+    {
+      "filename" : "5_2__2walk_p1.arreferenceimage"
+    },
+    {
+      "filename" : "5_2__2walk_p2.arreferenceimage"
+    },
+    {
+      "filename" : "5_2__2walk_p3.arreferenceimage"
+    }
+  ]
+}

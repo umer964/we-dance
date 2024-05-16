@@ -1,0 +1,1118 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2F11F68128B8B98800F9B495 /* AlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F11F68028B8B98800F9B495 /* AlertViewController.swift */; };
+		2F13037428C23CAE002E37E3 /* FeedBackResponseModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F13037328C23CAE002E37E3 /* FeedBackResponseModel.swift */; };
+		2F1848C128C0AB6200DED8C0 /* PredictionModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1848C028C0AB6200DED8C0 /* PredictionModel.swift */; };
+		2F1848C328C0C54100DED8C0 /* PredictionRequestModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1848C228C0C54100DED8C0 /* PredictionRequestModel.swift */; };
+		2F1DAD9528CB8CED00AD4295 /* StringHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F1DAD9428CB8CED00AD4295 /* StringHelper.swift */; };
+		2F38EA0A2937B96200B017DD /* slideranimation.json in Resources */ = {isa = PBXBuildFile; fileRef = 2F38EA092937B96200B017DD /* slideranimation.json */; };
+		2F701239278C675D0045CDB8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F701238278C675D0045CDB8 /* AppDelegate.swift */; };
+		2F70123D278C675D0045CDB8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70123C278C675D0045CDB8 /* ViewController.swift */; };
+		2F701240278C675D0045CDB8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F70123E278C675D0045CDB8 /* Main.storyboard */; };
+		2F701242278C675E0045CDB8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F701241278C675E0045CDB8 /* Assets.xcassets */; };
+		2F701245278C675E0045CDB8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2F701243278C675E0045CDB8 /* LaunchScreen.storyboard */; };
+		2F701250278C675E0045CDB8 /* dancerealityTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70124F278C675E0045CDB8 /* dancerealityTests.swift */; };
+		2F70125B278C675E0045CDB8 /* dancerealityUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F70125A278C675E0045CDB8 /* dancerealityUITests.swift */; };
+		2F70127C278C6E4C0045CDB8 /* art.scnassets in Resources */ = {isa = PBXBuildFile; fileRef = 2F70123A278C675D0045CDB8 /* art.scnassets */; };
+		2F81F792294CAF53007EA01F /* skin_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2F81F791294CAF53007EA01F /* skin_3.jpg */; };
+		2F8235F82BC7D0A80008E597 /* EV_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F8235F62BC7D0A80008E597 /* EV_2.mp3 */; };
+		2F8235F92BC7D0A80008E597 /* TG_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F8235F72BC7D0A80008E597 /* TG_3.mp3 */; };
+		2F8236012BDA756C0008E597 /* TG_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F8236002BDA756C0008E597 /* TG_1.mp3 */; };
+		2F82360A2BDAA9840008E597 /* SF_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F8236062BDAA9840008E597 /* SF_2.mp3 */; };
+		2F82360B2BDAA9840008E597 /* QS_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F8236072BDAA9840008E597 /* QS_2.mp3 */; };
+		2F82360E2BE0FC850008E597 /* QS_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F82360C2BE0FC850008E597 /* QS_1.mp3 */; };
+		2F8236132BE105F20008E597 /* SF_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F8236122BE105F20008E597 /* SF_1.mp3 */; };
+		2F82361F2BE11AA00008E597 /* TG_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F82361D2BE11AA00008E597 /* TG_2.mp3 */; };
+		2F82362B2BEA693C0008E597 /* TG_2and.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2F82362A2BEA693C0008E597 /* TG_2and.mp3 */; };
+		2F8F9A8E287476EB002D7948 /* SceneScenarioHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F8F9A8D287476EB002D7948 /* SceneScenarioHelper.swift */; };
+		2FA0402F28A14C26000A49C0 /* DanceSubMovesAdapter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0402E28A14C26000A49C0 /* DanceSubMovesAdapter.swift */; };
+		2FA0403128A28281000A49C0 /* DanceMoveHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA0403028A28281000A49C0 /* DanceMoveHelper.swift */; };
+		2FA9C093297FC68E00926E5A /* CustomVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FA9C092297FC68E00926E5A /* CustomVideoController.swift */; };
+		2FAC84D628929003009C7A18 /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84D528929003009C7A18 /* MainController.swift */; };
+		2FAC84DC2892BAD7009C7A18 /* starting_sceern_placeholder_without_bg.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC84DB2892BAD7009C7A18 /* starting_sceern_placeholder_without_bg.json */; };
+		2FAC84DE2897C41C009C7A18 /* 123go.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FAC84DD2897C41B009C7A18 /* 123go.json */; };
+		2FAC84E12899206E009C7A18 /* DanceType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84E02899206E009C7A18 /* DanceType.swift */; };
+		2FAC84E42899371E009C7A18 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84E32899371E009C7A18 /* NetworkManager.swift */; };
+		2FAC84E728993ADE009C7A18 /* StoreageHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84E628993ADE009C7A18 /* StoreageHelper.swift */; };
+		2FAC84EA28994302009C7A18 /* DownloadHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84E928994302009C7A18 /* DownloadHelper.swift */; };
+		2FAC84EC28994336009C7A18 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84EB28994336009C7A18 /* AppModel.swift */; };
+		2FAC84EE289945EB009C7A18 /* FileHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84ED289945EB009C7A18 /* FileHelper.swift */; };
+		2FAC84F0289A91B9009C7A18 /* DanceMove.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84EF289A91B9009C7A18 /* DanceMove.swift */; };
+		2FAC84F2289D3F16009C7A18 /* NetworkStateHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAC84F1289D3F16009C7A18 /* NetworkStateHelper.swift */; };
+		2FAF686628AF8FCA00F7D773 /* SpinnerUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FAF686528AF8FCA00F7D773 /* SpinnerUI.swift */; };
+		2FB812852B5980F50093A6B6 /* AboutController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812842B5980F40093A6B6 /* AboutController.swift */; };
+		2FB812892B5E964A0093A6B6 /* CounterMusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812882B5E964A0093A6B6 /* CounterMusicHelper.swift */; };
+		2FB812912B7399850093A6B6 /* CounterMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812902B7399850093A6B6 /* CounterMusic.swift */; };
+		2FB812992B739B550093A6B6 /* EnglishValseCounterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812982B739B550093A6B6 /* EnglishValseCounterHelper.swift */; };
+		2FB812A12B73C7BB0093A6B6 /* SlowFoxCounterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812A02B73C7BB0093A6B6 /* SlowFoxCounterHelper.swift */; };
+		2FB812A92B7DFD3D0093A6B6 /* AppHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812A82B7DFD3D0093A6B6 /* AppHelper.swift */; };
+		2FB812AD2B7E63070093A6B6 /* SF_2and.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812AC2B7E63070093A6B6 /* SF_2and.mp3 */; };
+		2FB812B32B878FA50093A6B6 /* EV_2and.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812B02B878FA50093A6B6 /* EV_2and.mp3 */; };
+		2FB812B92B90975A0093A6B6 /* EV_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812B62B90975A0093A6B6 /* EV_3.mp3 */; };
+		2FB812BA2B90975A0093A6B6 /* EV_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812B72B90975A0093A6B6 /* EV_1.mp3 */; };
+		2FB812C32B9098150093A6B6 /* TangoCounterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812C22B9098150093A6B6 /* TangoCounterHelper.swift */; };
+		2FB812C52B9098230093A6B6 /* QuickStepCounterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812C42B9098230093A6B6 /* QuickStepCounterHelper.swift */; };
+		2FB812C72B9098340093A6B6 /* WeinerValseCounterHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB812C62B9098340093A6B6 /* WeinerValseCounterHelper.swift */; };
+		2FB812D72B90993A0093A6B6 /* WV_1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812D42B90993A0093A6B6 /* WV_1.mp3 */; };
+		2FB812D82B90993A0093A6B6 /* WV_2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812D52B90993A0093A6B6 /* WV_2.mp3 */; };
+		2FB812D92B90993A0093A6B6 /* WV_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812D62B90993A0093A6B6 /* WV_3.mp3 */; };
+		2FB812DE2B98A3030093A6B6 /* QS_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812DB2B98A3030093A6B6 /* QS_3.mp3 */; };
+		2FB812EB2B98A3CD0093A6B6 /* SF_3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 2FB812E82B98A3CD0093A6B6 /* SF_3.mp3 */; };
+		2FD27BE12AF3F5D8005B87F6 /* LoginController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD27BE02AF3F5D8005B87F6 /* LoginController.swift */; };
+		2FD27BEC2AF512B0005B87F6 /* tanzapp_start.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FD27BEB2AF512B0005B87F6 /* tanzapp_start.json */; };
+		2FD27BF22B162DDD005B87F6 /* RegisterController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD27BF12B162DDD005B87F6 /* RegisterController.swift */; };
+		2FD27BF42B18B2EC005B87F6 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD27BF32B18B2EC005B87F6 /* User.swift */; };
+		2FD27CA42B1A2852005B87F6 /* person1_rigged.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD27CA22B1A2852005B87F6 /* person1_rigged.jpg */; };
+		2FD27CA82B1A292F005B87F6 /* person2_rigged.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 2FD27CA62B1A292F005B87F6 /* person2_rigged.jpg */; };
+		2FD8AFE927CFACB600F86C79 /* iOSDevCenters+GIF.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8AFE827CFACB600F86C79 /* iOSDevCenters+GIF.swift */; };
+		2FD8B01327E4917200F86C79 /* marker.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FD8B01227E4917200F86C79 /* marker.json */; };
+		2FD8B01927E4DB1900F86C79 /* insrtruction.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FD8B01827E4DB1900F86C79 /* insrtruction.json */; };
+		2FD8B01D27F1E75E00F86C79 /* TableData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8B01C27F1E75D00F86C79 /* TableData.swift */; };
+		2FD8B01F27F725DC00F86C79 /* MusicHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8B01E27F725DC00F86C79 /* MusicHelper.swift */; };
+		2FD8E3692950B43B008144DD /* CustomScnNode.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD8E3682950B43B008144DD /* CustomScnNode.swift */; };
+		2FE6F61A283295B6009E651E /* instruction_2.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6F619283295B6009E651E /* instruction_2.json */; };
+		2FE6F62028340EBA009E651E /* sub_ins.json in Resources */ = {isa = PBXBuildFile; fileRef = 2FE6F61F28340EBA009E651E /* sub_ins.json */; };
+		2FF8CDF22A5D570600855213 /* main_instructions.json in Resources */ = {isa = PBXBuildFile; fileRef = C9386FE229DEE457009AC97B /* main_instructions.json */; };
+		2FF8CE042A5EA22300855213 /* StepDetectedHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE032A5EA22300855213 /* StepDetectedHelper.swift */; };
+		2FF8CE1F2A6956BB00855213 /* MovingAverageFilter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE1D2A6956BB00855213 /* MovingAverageFilter.swift */; };
+		2FF8CE202A6956BB00855213 /* HeatmapPostProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE1E2A6956BB00855213 /* HeatmapPostProcessor.swift */; };
+		2FF8CE222A69583B00855213 /* PredictedPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE212A69583B00855213 /* PredictedPoint.swift */; };
+		2FF8CE2C2A6E68FC00855213 /* FootDetectionHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE2B2A6E68FC00855213 /* FootDetectionHelper.swift */; };
+		2FF8CE3A2A7005EA00855213 /* footstepDetector.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE392A7005EA00855213 /* footstepDetector.mlmodel */; };
+		2FF8CE622A851CB100855213 /* footstepDetector2.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE612A851CB100855213 /* footstepDetector2.mlmodel */; };
+		2FF8CE722AC2E56900855213 /* CustomSubDance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE712AC2E56900855213 /* CustomSubDance.swift */; };
+		2FF8CE792AC2ED8500855213 /* CustomSubDanceTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FF8CE772AC2ED8500855213 /* CustomSubDanceTableViewCell.swift */; };
+		2FF8CE7A2AC2ED8500855213 /* CustomSubDanceTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2FF8CE782AC2ED8500855213 /* CustomSubDanceTableViewCell.xib */; };
+		584A19D789543F3A67F34A3A /* Pods_dancereality_dancerealityUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E26BBC088914B36A80F4BCB /* Pods_dancereality_dancerealityUITests.framework */; };
+		88C48FCD65B404242AA988DE /* Pods_dancereality.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 558DCBE83936FDAE87B7BC75 /* Pods_dancereality.framework */; };
+		C49ADA037FFC1D8F0792FFBA /* Pods_dancerealityTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6368A1EF679A48E4F2641D52 /* Pods_dancerealityTests.framework */; };
+		C938703D2A0CF9B3009AC97B /* KlausTrainerController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C938703C2A0CF9B3009AC97B /* KlausTrainerController.swift */; };
+		C988459F2A2F739C00405AA7 /* KlausCustomVideoController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C988459E2A2F739C00405AA7 /* KlausCustomVideoController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2F70124C278C675E0045CDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F70122D278C675D0045CDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F701234278C675D0045CDB8;
+			remoteInfo = dancereality;
+		};
+		2F701257278C675E0045CDB8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2F70122D278C675D0045CDB8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2F701234278C675D0045CDB8;
+			remoteInfo = dancereality;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		1E9ECD0D910A31156769C1CE /* Pods-dancereality.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dancereality.debug.xcconfig"; path = "Target Support Files/Pods-dancereality/Pods-dancereality.debug.xcconfig"; sourceTree = "<group>"; };
+		22FE3030B9653A9B469B0410 /* Pods-dancerealityTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dancerealityTests.debug.xcconfig"; path = "Target Support Files/Pods-dancerealityTests/Pods-dancerealityTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2E26BBC088914B36A80F4BCB /* Pods_dancereality_dancerealityUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dancereality_dancerealityUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F11F68028B8B98800F9B495 /* AlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertViewController.swift; sourceTree = "<group>"; };
+		2F13037328C23CAE002E37E3 /* FeedBackResponseModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedBackResponseModel.swift; sourceTree = "<group>"; };
+		2F1848C028C0AB6200DED8C0 /* PredictionModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionModel.swift; sourceTree = "<group>"; };
+		2F1848C228C0C54100DED8C0 /* PredictionRequestModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PredictionRequestModel.swift; sourceTree = "<group>"; };
+		2F1DAD9428CB8CED00AD4295 /* StringHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringHelper.swift; sourceTree = "<group>"; };
+		2F38EA092937B96200B017DD /* slideranimation.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = slideranimation.json; sourceTree = "<group>"; };
+		2F701235278C675D0045CDB8 /* dancereality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = dancereality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F701238278C675D0045CDB8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2F70123A278C675D0045CDB8 /* art.scnassets */ = {isa = PBXFileReference; lastKnownFileType = wrapper.scnassets; path = art.scnassets; sourceTree = "<group>"; };
+		2F70123C278C675D0045CDB8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2F70123F278C675D0045CDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2F701241278C675E0045CDB8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2F701244278C675E0045CDB8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2F701246278C675E0045CDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F70124B278C675E0045CDB8 /* dancerealityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dancerealityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F70124F278C675E0045CDB8 /* dancerealityTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancerealityTests.swift; sourceTree = "<group>"; };
+		2F701251278C675E0045CDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F701256278C675E0045CDB8 /* dancerealityUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = dancerealityUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		2F70125A278C675E0045CDB8 /* dancerealityUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dancerealityUITests.swift; sourceTree = "<group>"; };
+		2F70125C278C675E0045CDB8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2F81F791294CAF53007EA01F /* skin_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = skin_3.jpg; sourceTree = "<group>"; };
+		2F8235F62BC7D0A80008E597 /* EV_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EV_2.mp3; path = "../../beat model/EV_2.mp3"; sourceTree = "<group>"; };
+		2F8235F72BC7D0A80008E597 /* TG_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TG_3.mp3; path = "../../beat model/TG_3.mp3"; sourceTree = "<group>"; };
+		2F8236002BDA756C0008E597 /* TG_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TG_1.mp3; path = ../../build_player/TG_1.mp3; sourceTree = "<group>"; };
+		2F8236062BDAA9840008E597 /* SF_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SF_2.mp3; path = ../../build_player/SF_2.mp3; sourceTree = "<group>"; };
+		2F8236072BDAA9840008E597 /* QS_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = QS_2.mp3; path = ../../build_player/QS_2.mp3; sourceTree = "<group>"; };
+		2F82360C2BE0FC850008E597 /* QS_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = QS_1.mp3; path = "../../build_player/untitled folder/QS_1.mp3"; sourceTree = "<group>"; };
+		2F8236122BE105F20008E597 /* SF_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SF_1.mp3; path = "../../build_player/untitled folder/untitled folder/SF_1.mp3"; sourceTree = "<group>"; };
+		2F82361D2BE11AA00008E597 /* TG_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TG_2.mp3; path = "../../build_player/untitled folder/untitled folder/untitled folder/TG_2.mp3"; sourceTree = "<group>"; };
+		2F82362A2BEA693C0008E597 /* TG_2and.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = TG_2and.mp3; path = ../../../Downloads/TG_2and.mp3; sourceTree = "<group>"; };
+		2F8F9A8D287476EB002D7948 /* SceneScenarioHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneScenarioHelper.swift; sourceTree = "<group>"; };
+		2FA0402E28A14C26000A49C0 /* DanceSubMovesAdapter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceSubMovesAdapter.swift; sourceTree = "<group>"; };
+		2FA0403028A28281000A49C0 /* DanceMoveHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceMoveHelper.swift; sourceTree = "<group>"; };
+		2FA9C092297FC68E00926E5A /* CustomVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomVideoController.swift; sourceTree = "<group>"; };
+		2FAC84D528929003009C7A18 /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		2FAC84DB2892BAD7009C7A18 /* starting_sceern_placeholder_without_bg.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = starting_sceern_placeholder_without_bg.json; sourceTree = "<group>"; };
+		2FAC84DD2897C41B009C7A18 /* 123go.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = 123go.json; sourceTree = "<group>"; };
+		2FAC84E02899206E009C7A18 /* DanceType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceType.swift; sourceTree = "<group>"; };
+		2FAC84E32899371E009C7A18 /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2FAC84E628993ADE009C7A18 /* StoreageHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreageHelper.swift; sourceTree = "<group>"; };
+		2FAC84E928994302009C7A18 /* DownloadHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DownloadHelper.swift; sourceTree = "<group>"; };
+		2FAC84EB28994336009C7A18 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		2FAC84ED289945EB009C7A18 /* FileHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FileHelper.swift; sourceTree = "<group>"; };
+		2FAC84EF289A91B9009C7A18 /* DanceMove.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DanceMove.swift; sourceTree = "<group>"; };
+		2FAC84F1289D3F16009C7A18 /* NetworkStateHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkStateHelper.swift; sourceTree = "<group>"; };
+		2FAF686528AF8FCA00F7D773 /* SpinnerUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpinnerUI.swift; sourceTree = "<group>"; };
+		2FB812842B5980F40093A6B6 /* AboutController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutController.swift; sourceTree = "<group>"; };
+		2FB812882B5E964A0093A6B6 /* CounterMusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterMusicHelper.swift; sourceTree = "<group>"; };
+		2FB812902B7399850093A6B6 /* CounterMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CounterMusic.swift; sourceTree = "<group>"; };
+		2FB812982B739B550093A6B6 /* EnglishValseCounterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnglishValseCounterHelper.swift; sourceTree = "<group>"; };
+		2FB812A02B73C7BB0093A6B6 /* SlowFoxCounterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlowFoxCounterHelper.swift; sourceTree = "<group>"; };
+		2FB812A82B7DFD3D0093A6B6 /* AppHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppHelper.swift; sourceTree = "<group>"; };
+		2FB812AC2B7E63070093A6B6 /* SF_2and.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SF_2and.mp3; path = ../../../Downloads/SF_2and.mp3; sourceTree = "<group>"; };
+		2FB812B02B878FA50093A6B6 /* EV_2and.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EV_2and.mp3; path = "../../beat model/EV_2and.mp3"; sourceTree = "<group>"; };
+		2FB812B62B90975A0093A6B6 /* EV_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EV_3.mp3; path = "../../../Downloads/audio0-7/audio0 walz/EV_3.mp3"; sourceTree = "<group>"; };
+		2FB812B72B90975A0093A6B6 /* EV_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = EV_1.mp3; path = "../../../Downloads/audio0-7/audio0 walz/EV_1.mp3"; sourceTree = "<group>"; };
+		2FB812C22B9098150093A6B6 /* TangoCounterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TangoCounterHelper.swift; sourceTree = "<group>"; };
+		2FB812C42B9098230093A6B6 /* QuickStepCounterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuickStepCounterHelper.swift; sourceTree = "<group>"; };
+		2FB812C62B9098340093A6B6 /* WeinerValseCounterHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeinerValseCounterHelper.swift; sourceTree = "<group>"; };
+		2FB812D42B90993A0093A6B6 /* WV_1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = WV_1.mp3; path = "../../../Downloads/audio0-7/audio2 wiener walz/WV_1.mp3"; sourceTree = "<group>"; };
+		2FB812D52B90993A0093A6B6 /* WV_2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = WV_2.mp3; path = "../../../Downloads/audio0-7/audio2 wiener walz/WV_2.mp3"; sourceTree = "<group>"; };
+		2FB812D62B90993A0093A6B6 /* WV_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = WV_3.mp3; path = "../../../Downloads/audio0-7/audio2 wiener walz/WV_3.mp3"; sourceTree = "<group>"; };
+		2FB812DB2B98A3030093A6B6 /* QS_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = QS_3.mp3; path = "../../../Downloads/quick step/QS_3.mp3"; sourceTree = "<group>"; };
+		2FB812E82B98A3CD0093A6B6 /* SF_3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = SF_3.mp3; path = "../../../Downloads/slow fox/SF_3.mp3"; sourceTree = "<group>"; };
+		2FD27BE02AF3F5D8005B87F6 /* LoginController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginController.swift; sourceTree = "<group>"; };
+		2FD27BEB2AF512B0005B87F6 /* tanzapp_start.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = tanzapp_start.json; path = "../../Uploadable Dance Data/tanzapp_start.json"; sourceTree = "<group>"; };
+		2FD27BF12B162DDD005B87F6 /* RegisterController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegisterController.swift; sourceTree = "<group>"; };
+		2FD27BF32B18B2EC005B87F6 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		2FD27CA22B1A2852005B87F6 /* person1_rigged.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = person1_rigged.jpg; path = "../../../Downloads/steps eric 2023/person1_rigged.jpg"; sourceTree = "<group>"; };
+		2FD27CA62B1A292F005B87F6 /* person2_rigged.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; name = person2_rigged.jpg; path = ../../../Downloads/steps_erika_30_11_2023/person2_rigged.jpg; sourceTree = "<group>"; };
+		2FD8AFE827CFACB600F86C79 /* iOSDevCenters+GIF.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "iOSDevCenters+GIF.swift"; sourceTree = "<group>"; };
+		2FD8B01227E4917200F86C79 /* marker.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = marker.json; sourceTree = "<group>"; };
+		2FD8B01827E4DB1900F86C79 /* insrtruction.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = insrtruction.json; sourceTree = "<group>"; };
+		2FD8B01C27F1E75D00F86C79 /* TableData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableData.swift; sourceTree = "<group>"; };
+		2FD8B01E27F725DC00F86C79 /* MusicHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicHelper.swift; sourceTree = "<group>"; };
+		2FD8E3682950B43B008144DD /* CustomScnNode.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomScnNode.swift; sourceTree = "<group>"; };
+		2FE6F619283295B6009E651E /* instruction_2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = instruction_2.json; sourceTree = "<group>"; };
+		2FE6F61F28340EBA009E651E /* sub_ins.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sub_ins.json; sourceTree = "<group>"; };
+		2FF8CE032A5EA22300855213 /* StepDetectedHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StepDetectedHelper.swift; sourceTree = "<group>"; };
+		2FF8CE1D2A6956BB00855213 /* MovingAverageFilter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MovingAverageFilter.swift; path = ../../../../Downloads/MovingAverageFilter.swift; sourceTree = "<group>"; };
+		2FF8CE1E2A6956BB00855213 /* HeatmapPostProcessor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = HeatmapPostProcessor.swift; path = ../../../../Downloads/HeatmapPostProcessor.swift; sourceTree = "<group>"; };
+		2FF8CE212A69583B00855213 /* PredictedPoint.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PredictedPoint.swift; path = ../../../../Downloads/PredictedPoint.swift; sourceTree = "<group>"; };
+		2FF8CE2B2A6E68FC00855213 /* FootDetectionHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FootDetectionHelper.swift; sourceTree = "<group>"; };
+		2FF8CE372A6EC9A000855213 /* Lottie.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Lottie.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FF8CE392A7005EA00855213 /* footstepDetector.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = footstepDetector.mlmodel; path = ../../../Downloads/footstepDetector.mlmodel; sourceTree = "<group>"; };
+		2FF8CE612A851CB100855213 /* footstepDetector2.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; name = footstepDetector2.mlmodel; path = "../../../Downloads/foot model/footstepDetector2.mlmodel"; sourceTree = "<group>"; };
+		2FF8CE712AC2E56900855213 /* CustomSubDance.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSubDance.swift; sourceTree = "<group>"; };
+		2FF8CE772AC2ED8500855213 /* CustomSubDanceTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomSubDanceTableViewCell.swift; sourceTree = "<group>"; };
+		2FF8CE782AC2ED8500855213 /* CustomSubDanceTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomSubDanceTableViewCell.xib; sourceTree = "<group>"; };
+		52CDD2E0E2A99B33C5CF4F68 /* Pods-dancereality.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dancereality.release.xcconfig"; path = "Target Support Files/Pods-dancereality/Pods-dancereality.release.xcconfig"; sourceTree = "<group>"; };
+		558DCBE83936FDAE87B7BC75 /* Pods_dancereality.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dancereality.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6368A1EF679A48E4F2641D52 /* Pods_dancerealityTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_dancerealityTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		64C573197586432C2F50570F /* Pods-dancereality-dancerealityUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dancereality-dancerealityUITests.release.xcconfig"; path = "Target Support Files/Pods-dancereality-dancerealityUITests/Pods-dancereality-dancerealityUITests.release.xcconfig"; sourceTree = "<group>"; };
+		A612CA3546E63E6BD871A583 /* Pods-dancereality-dancerealityUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dancereality-dancerealityUITests.debug.xcconfig"; path = "Target Support Files/Pods-dancereality-dancerealityUITests/Pods-dancereality-dancerealityUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C9386FE229DEE457009AC97B /* main_instructions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; name = main_instructions.json; path = ../../../Downloads/main_instructions.json; sourceTree = "<group>"; };
+		C938703C2A0CF9B3009AC97B /* KlausTrainerController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlausTrainerController.swift; sourceTree = "<group>"; };
+		C988459E2A2F739C00405AA7 /* KlausCustomVideoController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KlausCustomVideoController.swift; sourceTree = "<group>"; };
+		F0D8C86E232E24FF056D453C /* Pods-dancerealityTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-dancerealityTests.release.xcconfig"; path = "Target Support Files/Pods-dancerealityTests/Pods-dancerealityTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F701232278C675D0045CDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88C48FCD65B404242AA988DE /* Pods_dancereality.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F701248278C675E0045CDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C49ADA037FFC1D8F0792FFBA /* Pods_dancerealityTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F701253278C675E0045CDB8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				584A19D789543F3A67F34A3A /* Pods_dancereality_dancerealityUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2F70122C278C675D0045CDB8 = {
+			isa = PBXGroup;
+			children = (
+				2F701237278C675D0045CDB8 /* dancereality */,
+				2F70124E278C675E0045CDB8 /* dancerealityTests */,
+				2F701259278C675E0045CDB8 /* dancerealityUITests */,
+				2F701236278C675D0045CDB8 /* Products */,
+				81EC53DFD35BECB0D06E75D7 /* Pods */,
+				6818C2D274D64FCDE57739A8 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2F701236278C675D0045CDB8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2F701235278C675D0045CDB8 /* dancereality.app */,
+				2F70124B278C675E0045CDB8 /* dancerealityTests.xctest */,
+				2F701256278C675E0045CDB8 /* dancerealityUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2F701237278C675D0045CDB8 /* dancereality */ = {
+			isa = PBXGroup;
+			children = (
+				C9386FE229DEE457009AC97B /* main_instructions.json */,
+				2FAF686428AF8FB700F7D773 /* CustomUI */,
+				2FA0402D28A14C00000A49C0 /* Adapters */,
+				2FAC84E8289942B3009C7A18 /* Helpers */,
+				2FAC84E528993AC6009C7A18 /* Stores */,
+				2FAC84E228993702009C7A18 /* Rests */,
+				2FAC84DF28992044009C7A18 /* Models */,
+				2F701238278C675D0045CDB8 /* AppDelegate.swift */,
+				2F70123A278C675D0045CDB8 /* art.scnassets */,
+				2F70123C278C675D0045CDB8 /* ViewController.swift */,
+				2FF8CE392A7005EA00855213 /* footstepDetector.mlmodel */,
+				2FF8CE612A851CB100855213 /* footstepDetector2.mlmodel */,
+				2F82361D2BE11AA00008E597 /* TG_2.mp3 */,
+				2F82362A2BEA693C0008E597 /* TG_2and.mp3 */,
+				2FB812AC2B7E63070093A6B6 /* SF_2and.mp3 */,
+				2F8236072BDAA9840008E597 /* QS_2.mp3 */,
+				2F8236122BE105F20008E597 /* SF_1.mp3 */,
+				2F82360C2BE0FC850008E597 /* QS_1.mp3 */,
+				2F8236062BDAA9840008E597 /* SF_2.mp3 */,
+				2F8236002BDA756C0008E597 /* TG_1.mp3 */,
+				2FB812DB2B98A3030093A6B6 /* QS_3.mp3 */,
+				2FB812D42B90993A0093A6B6 /* WV_1.mp3 */,
+				2FB812D52B90993A0093A6B6 /* WV_2.mp3 */,
+				2FB812D62B90993A0093A6B6 /* WV_3.mp3 */,
+				2F8235F62BC7D0A80008E597 /* EV_2.mp3 */,
+				2F8235F72BC7D0A80008E597 /* TG_3.mp3 */,
+				2FB812E82B98A3CD0093A6B6 /* SF_3.mp3 */,
+				2FB812B72B90975A0093A6B6 /* EV_1.mp3 */,
+				2FB812B62B90975A0093A6B6 /* EV_3.mp3 */,
+				2FB812B02B878FA50093A6B6 /* EV_2and.mp3 */,
+				2F70123E278C675D0045CDB8 /* Main.storyboard */,
+				2F701241278C675E0045CDB8 /* Assets.xcassets */,
+				2F701243278C675E0045CDB8 /* LaunchScreen.storyboard */,
+				2FD8B01827E4DB1900F86C79 /* insrtruction.json */,
+				2FE6F619283295B6009E651E /* instruction_2.json */,
+				2FE6F61F28340EBA009E651E /* sub_ins.json */,
+				2F701246278C675E0045CDB8 /* Info.plist */,
+				2FD8B01227E4917200F86C79 /* marker.json */,
+				2FAC84DD2897C41B009C7A18 /* 123go.json */,
+				2FAC84DB2892BAD7009C7A18 /* starting_sceern_placeholder_without_bg.json */,
+				2F38EA092937B96200B017DD /* slideranimation.json */,
+				2FD8AFE827CFACB600F86C79 /* iOSDevCenters+GIF.swift */,
+				2F81F791294CAF53007EA01F /* skin_3.jpg */,
+				2FD27CA22B1A2852005B87F6 /* person1_rigged.jpg */,
+				2FD27CA62B1A292F005B87F6 /* person2_rigged.jpg */,
+				2FD8B01C27F1E75D00F86C79 /* TableData.swift */,
+				2FAC84D528929003009C7A18 /* MainController.swift */,
+				2FD27BEB2AF512B0005B87F6 /* tanzapp_start.json */,
+				2FA9C092297FC68E00926E5A /* CustomVideoController.swift */,
+				C938703C2A0CF9B3009AC97B /* KlausTrainerController.swift */,
+				C988459E2A2F739C00405AA7 /* KlausCustomVideoController.swift */,
+				2FD27BE02AF3F5D8005B87F6 /* LoginController.swift */,
+				2FD27BF12B162DDD005B87F6 /* RegisterController.swift */,
+				2FB812842B5980F40093A6B6 /* AboutController.swift */,
+			);
+			path = dancereality;
+			sourceTree = "<group>";
+		};
+		2F70124E278C675E0045CDB8 /* dancerealityTests */ = {
+			isa = PBXGroup;
+			children = (
+				2F70124F278C675E0045CDB8 /* dancerealityTests.swift */,
+				2F701251278C675E0045CDB8 /* Info.plist */,
+			);
+			path = dancerealityTests;
+			sourceTree = "<group>";
+		};
+		2F701259278C675E0045CDB8 /* dancerealityUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2F70125A278C675E0045CDB8 /* dancerealityUITests.swift */,
+				2F70125C278C675E0045CDB8 /* Info.plist */,
+			);
+			path = dancerealityUITests;
+			sourceTree = "<group>";
+		};
+		2FA0402D28A14C00000A49C0 /* Adapters */ = {
+			isa = PBXGroup;
+			children = (
+				2FA0402E28A14C26000A49C0 /* DanceSubMovesAdapter.swift */,
+			);
+			path = Adapters;
+			sourceTree = "<group>";
+		};
+		2FAC84DF28992044009C7A18 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC84E02899206E009C7A18 /* DanceType.swift */,
+				2FAC84EB28994336009C7A18 /* AppModel.swift */,
+				2FAC84EF289A91B9009C7A18 /* DanceMove.swift */,
+				2F1848C028C0AB6200DED8C0 /* PredictionModel.swift */,
+				2F1848C228C0C54100DED8C0 /* PredictionRequestModel.swift */,
+				2F13037328C23CAE002E37E3 /* FeedBackResponseModel.swift */,
+				2FD27BF32B18B2EC005B87F6 /* User.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		2FAC84E228993702009C7A18 /* Rests */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC84E32899371E009C7A18 /* NetworkManager.swift */,
+			);
+			path = Rests;
+			sourceTree = "<group>";
+		};
+		2FAC84E528993AC6009C7A18 /* Stores */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC84E628993ADE009C7A18 /* StoreageHelper.swift */,
+			);
+			path = Stores;
+			sourceTree = "<group>";
+		};
+		2FAC84E8289942B3009C7A18 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				2FAC84E928994302009C7A18 /* DownloadHelper.swift */,
+				2FAC84ED289945EB009C7A18 /* FileHelper.swift */,
+				2FAC84F1289D3F16009C7A18 /* NetworkStateHelper.swift */,
+				2FA0403028A28281000A49C0 /* DanceMoveHelper.swift */,
+				2FF8CE1E2A6956BB00855213 /* HeatmapPostProcessor.swift */,
+				2FF8CE1D2A6956BB00855213 /* MovingAverageFilter.swift */,
+				2FF8CE212A69583B00855213 /* PredictedPoint.swift */,
+				2F1DAD9428CB8CED00AD4295 /* StringHelper.swift */,
+				2F8F9A8D287476EB002D7948 /* SceneScenarioHelper.swift */,
+				2FD8B01E27F725DC00F86C79 /* MusicHelper.swift */,
+				2FF8CE032A5EA22300855213 /* StepDetectedHelper.swift */,
+				2FF8CE2B2A6E68FC00855213 /* FootDetectionHelper.swift */,
+				2FB812882B5E964A0093A6B6 /* CounterMusicHelper.swift */,
+				2FB812902B7399850093A6B6 /* CounterMusic.swift */,
+				2FB812982B739B550093A6B6 /* EnglishValseCounterHelper.swift */,
+				2FB812A02B73C7BB0093A6B6 /* SlowFoxCounterHelper.swift */,
+				2FB812A82B7DFD3D0093A6B6 /* AppHelper.swift */,
+				2FB812C22B9098150093A6B6 /* TangoCounterHelper.swift */,
+				2FB812C42B9098230093A6B6 /* QuickStepCounterHelper.swift */,
+				2FB812C62B9098340093A6B6 /* WeinerValseCounterHelper.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		2FAF686428AF8FB700F7D773 /* CustomUI */ = {
+			isa = PBXGroup;
+			children = (
+				2FAF686528AF8FCA00F7D773 /* SpinnerUI.swift */,
+				2F11F68028B8B98800F9B495 /* AlertViewController.swift */,
+				2FD8E3682950B43B008144DD /* CustomScnNode.swift */,
+				2FF8CE712AC2E56900855213 /* CustomSubDance.swift */,
+				2FF8CE772AC2ED8500855213 /* CustomSubDanceTableViewCell.swift */,
+				2FF8CE782AC2ED8500855213 /* CustomSubDanceTableViewCell.xib */,
+			);
+			path = CustomUI;
+			sourceTree = "<group>";
+		};
+		6818C2D274D64FCDE57739A8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2FF8CE372A6EC9A000855213 /* Lottie.framework */,
+				558DCBE83936FDAE87B7BC75 /* Pods_dancereality.framework */,
+				2E26BBC088914B36A80F4BCB /* Pods_dancereality_dancerealityUITests.framework */,
+				6368A1EF679A48E4F2641D52 /* Pods_dancerealityTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		81EC53DFD35BECB0D06E75D7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				1E9ECD0D910A31156769C1CE /* Pods-dancereality.debug.xcconfig */,
+				52CDD2E0E2A99B33C5CF4F68 /* Pods-dancereality.release.xcconfig */,
+				A612CA3546E63E6BD871A583 /* Pods-dancereality-dancerealityUITests.debug.xcconfig */,
+				64C573197586432C2F50570F /* Pods-dancereality-dancerealityUITests.release.xcconfig */,
+				22FE3030B9653A9B469B0410 /* Pods-dancerealityTests.debug.xcconfig */,
+				F0D8C86E232E24FF056D453C /* Pods-dancerealityTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2F701234278C675D0045CDB8 /* dancereality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F70125F278C675E0045CDB8 /* Build configuration list for PBXNativeTarget "dancereality" */;
+			buildPhases = (
+				8D72688D2B0EE1D690ECDB20 /* [CP] Check Pods Manifest.lock */,
+				2F701231278C675D0045CDB8 /* Sources */,
+				2F701232278C675D0045CDB8 /* Frameworks */,
+				2F701233278C675D0045CDB8 /* Resources */,
+				4B485F1F69A96097803290D4 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = dancereality;
+			productName = dancereality;
+			productReference = 2F701235278C675D0045CDB8 /* dancereality.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2F70124A278C675E0045CDB8 /* dancerealityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F701262278C675E0045CDB8 /* Build configuration list for PBXNativeTarget "dancerealityTests" */;
+			buildPhases = (
+				F129024D85DBB89173EC9491 /* [CP] Check Pods Manifest.lock */,
+				2F701247278C675E0045CDB8 /* Sources */,
+				2F701248278C675E0045CDB8 /* Frameworks */,
+				2F701249278C675E0045CDB8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F70124D278C675E0045CDB8 /* PBXTargetDependency */,
+			);
+			name = dancerealityTests;
+			productName = dancerealityTests;
+			productReference = 2F70124B278C675E0045CDB8 /* dancerealityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2F701255278C675E0045CDB8 /* dancerealityUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2F701265278C675E0045CDB8 /* Build configuration list for PBXNativeTarget "dancerealityUITests" */;
+			buildPhases = (
+				2F0E55DEDC047A8D189D0F29 /* [CP] Check Pods Manifest.lock */,
+				2F701252278C675E0045CDB8 /* Sources */,
+				2F701253278C675E0045CDB8 /* Frameworks */,
+				2F701254278C675E0045CDB8 /* Resources */,
+				4CC227E67729DB2C991C778A /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2F701258278C675E0045CDB8 /* PBXTargetDependency */,
+			);
+			name = dancerealityUITests;
+			productName = dancerealityUITests;
+			productReference = 2F701256278C675E0045CDB8 /* dancerealityUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2F70122D278C675D0045CDB8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					2F701234278C675D0045CDB8 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					2F70124A278C675E0045CDB8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2F701234278C675D0045CDB8;
+					};
+					2F701255278C675E0045CDB8 = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = 2F701234278C675D0045CDB8;
+					};
+				};
+			};
+			buildConfigurationList = 2F701230278C675D0045CDB8 /* Build configuration list for PBXProject "dancereality" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2F70122C278C675D0045CDB8;
+			productRefGroup = 2F701236278C675D0045CDB8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2F701234278C675D0045CDB8 /* dancereality */,
+				2F70124A278C675E0045CDB8 /* dancerealityTests */,
+				2F701255278C675E0045CDB8 /* dancerealityUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2F701233278C675D0045CDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FD27CA42B1A2852005B87F6 /* person1_rigged.jpg in Resources */,
+				2FF8CDF22A5D570600855213 /* main_instructions.json in Resources */,
+				2FB812D72B90993A0093A6B6 /* WV_1.mp3 in Resources */,
+				2FD27CA82B1A292F005B87F6 /* person2_rigged.jpg in Resources */,
+				2FB812B92B90975A0093A6B6 /* EV_3.mp3 in Resources */,
+				2FD27BEC2AF512B0005B87F6 /* tanzapp_start.json in Resources */,
+				2FAC84DC2892BAD7009C7A18 /* starting_sceern_placeholder_without_bg.json in Resources */,
+				2FD8B01927E4DB1900F86C79 /* insrtruction.json in Resources */,
+				2FE6F62028340EBA009E651E /* sub_ins.json in Resources */,
+				2FB812BA2B90975A0093A6B6 /* EV_1.mp3 in Resources */,
+				2F38EA0A2937B96200B017DD /* slideranimation.json in Resources */,
+				2F8235F82BC7D0A80008E597 /* EV_2.mp3 in Resources */,
+				2FF8CE7A2AC2ED8500855213 /* CustomSubDanceTableViewCell.xib in Resources */,
+				2F82360A2BDAA9840008E597 /* SF_2.mp3 in Resources */,
+				2FB812AD2B7E63070093A6B6 /* SF_2and.mp3 in Resources */,
+				2FAC84DE2897C41C009C7A18 /* 123go.json in Resources */,
+				2F8235F92BC7D0A80008E597 /* TG_3.mp3 in Resources */,
+				2F82360E2BE0FC850008E597 /* QS_1.mp3 in Resources */,
+				2F81F792294CAF53007EA01F /* skin_3.jpg in Resources */,
+				2F82362B2BEA693C0008E597 /* TG_2and.mp3 in Resources */,
+				2FB812D92B90993A0093A6B6 /* WV_3.mp3 in Resources */,
+				2FB812DE2B98A3030093A6B6 /* QS_3.mp3 in Resources */,
+				2F70127C278C6E4C0045CDB8 /* art.scnassets in Resources */,
+				2F701245278C675E0045CDB8 /* LaunchScreen.storyboard in Resources */,
+				2FB812D82B90993A0093A6B6 /* WV_2.mp3 in Resources */,
+				2F8236012BDA756C0008E597 /* TG_1.mp3 in Resources */,
+				2F82360B2BDAA9840008E597 /* QS_2.mp3 in Resources */,
+				2F82361F2BE11AA00008E597 /* TG_2.mp3 in Resources */,
+				2FD8B01327E4917200F86C79 /* marker.json in Resources */,
+				2FE6F61A283295B6009E651E /* instruction_2.json in Resources */,
+				2FB812B32B878FA50093A6B6 /* EV_2and.mp3 in Resources */,
+				2F701242278C675E0045CDB8 /* Assets.xcassets in Resources */,
+				2F8236132BE105F20008E597 /* SF_1.mp3 in Resources */,
+				2FB812EB2B98A3CD0093A6B6 /* SF_3.mp3 in Resources */,
+				2F701240278C675D0045CDB8 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F701249278C675E0045CDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F701254278C675E0045CDB8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2F0E55DEDC047A8D189D0F29 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dancereality-dancerealityUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4B485F1F69A96097803290D4 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dancereality/Pods-dancereality-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dancereality/Pods-dancereality-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dancereality/Pods-dancereality-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		4CC227E67729DB2C991C778A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dancereality-dancerealityUITests/Pods-dancereality-dancerealityUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-dancereality-dancerealityUITests/Pods-dancereality-dancerealityUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-dancereality-dancerealityUITests/Pods-dancereality-dancerealityUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8D72688D2B0EE1D690ECDB20 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dancereality-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F129024D85DBB89173EC9491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-dancerealityTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2F701231278C675D0045CDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2FAC84E42899371E009C7A18 /* NetworkManager.swift in Sources */,
+				2FAC84E12899206E009C7A18 /* DanceType.swift in Sources */,
+				2F8F9A8E287476EB002D7948 /* SceneScenarioHelper.swift in Sources */,
+				2FAC84D628929003009C7A18 /* MainController.swift in Sources */,
+				C938703D2A0CF9B3009AC97B /* KlausTrainerController.swift in Sources */,
+				2F11F68128B8B98800F9B495 /* AlertViewController.swift in Sources */,
+				2FB812C32B9098150093A6B6 /* TangoCounterHelper.swift in Sources */,
+				2FAC84EE289945EB009C7A18 /* FileHelper.swift in Sources */,
+				2FA0402F28A14C26000A49C0 /* DanceSubMovesAdapter.swift in Sources */,
+				2FB812992B739B550093A6B6 /* EnglishValseCounterHelper.swift in Sources */,
+				2F13037428C23CAE002E37E3 /* FeedBackResponseModel.swift in Sources */,
+				2FF8CE792AC2ED8500855213 /* CustomSubDanceTableViewCell.swift in Sources */,
+				2FD27BF22B162DDD005B87F6 /* RegisterController.swift in Sources */,
+				2FAC84EA28994302009C7A18 /* DownloadHelper.swift in Sources */,
+				2FB812C72B9098340093A6B6 /* WeinerValseCounterHelper.swift in Sources */,
+				C988459F2A2F739C00405AA7 /* KlausCustomVideoController.swift in Sources */,
+				2F1848C328C0C54100DED8C0 /* PredictionRequestModel.swift in Sources */,
+				2FAF686628AF8FCA00F7D773 /* SpinnerUI.swift in Sources */,
+				2FD8B01F27F725DC00F86C79 /* MusicHelper.swift in Sources */,
+				2F1848C128C0AB6200DED8C0 /* PredictionModel.swift in Sources */,
+				2FA0403128A28281000A49C0 /* DanceMoveHelper.swift in Sources */,
+				2FD8B01D27F1E75E00F86C79 /* TableData.swift in Sources */,
+				2FAC84EC28994336009C7A18 /* AppModel.swift in Sources */,
+				2F70123D278C675D0045CDB8 /* ViewController.swift in Sources */,
+				2FF8CE622A851CB100855213 /* footstepDetector2.mlmodel in Sources */,
+				2FF8CE202A6956BB00855213 /* HeatmapPostProcessor.swift in Sources */,
+				2FF8CE222A69583B00855213 /* PredictedPoint.swift in Sources */,
+				2FF8CE2C2A6E68FC00855213 /* FootDetectionHelper.swift in Sources */,
+				2FAC84F0289A91B9009C7A18 /* DanceMove.swift in Sources */,
+				2FD27BF42B18B2EC005B87F6 /* User.swift in Sources */,
+				2FB812912B7399850093A6B6 /* CounterMusic.swift in Sources */,
+				2FD8AFE927CFACB600F86C79 /* iOSDevCenters+GIF.swift in Sources */,
+				2FF8CE042A5EA22300855213 /* StepDetectedHelper.swift in Sources */,
+				2FD8E3692950B43B008144DD /* CustomScnNode.swift in Sources */,
+				2FAC84F2289D3F16009C7A18 /* NetworkStateHelper.swift in Sources */,
+				2FB812852B5980F50093A6B6 /* AboutController.swift in Sources */,
+				2FF8CE1F2A6956BB00855213 /* MovingAverageFilter.swift in Sources */,
+				2FB812A12B73C7BB0093A6B6 /* SlowFoxCounterHelper.swift in Sources */,
+				2F701239278C675D0045CDB8 /* AppDelegate.swift in Sources */,
+				2FB812C52B9098230093A6B6 /* QuickStepCounterHelper.swift in Sources */,
+				2FD27BE12AF3F5D8005B87F6 /* LoginController.swift in Sources */,
+				2FB812892B5E964A0093A6B6 /* CounterMusicHelper.swift in Sources */,
+				2FF8CE3A2A7005EA00855213 /* footstepDetector.mlmodel in Sources */,
+				2FB812A92B7DFD3D0093A6B6 /* AppHelper.swift in Sources */,
+				2FA9C093297FC68E00926E5A /* CustomVideoController.swift in Sources */,
+				2FAC84E728993ADE009C7A18 /* StoreageHelper.swift in Sources */,
+				2F1DAD9528CB8CED00AD4295 /* StringHelper.swift in Sources */,
+				2FF8CE722AC2E56900855213 /* CustomSubDance.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F701247278C675E0045CDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F701250278C675E0045CDB8 /* dancerealityTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2F701252278C675E0045CDB8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2F70125B278C675E0045CDB8 /* dancerealityUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2F70124D278C675E0045CDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F701234278C675D0045CDB8 /* dancereality */;
+			targetProxy = 2F70124C278C675E0045CDB8 /* PBXContainerItemProxy */;
+		};
+		2F701258278C675E0045CDB8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2F701234278C675D0045CDB8 /* dancereality */;
+			targetProxy = 2F701257278C675E0045CDB8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		2F70123E278C675D0045CDB8 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F70123F278C675D0045CDB8 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2F701243278C675E0045CDB8 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2F701244278C675E0045CDB8 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2F70125D278C675E0045CDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2F70125E278C675E0045CDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2F701260278C675E0045CDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1E9ECD0D910A31156769C1CE /* Pods-dancereality.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DS627Z5RHU;
+				INFOPLIST_FILE = dancereality/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeDance;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stundent.dancereality;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2F701261278C675E0045CDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52CDD2E0E2A99B33C5CF4F68 /* Pods-dancereality.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = DS627Z5RHU;
+				INFOPLIST_FILE = dancereality/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WeDance;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.7;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stundent.dancereality;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2F701263278C675E0045CDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 22FE3030B9653A9B469B0410 /* Pods-dancerealityTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CQAK42NR3;
+				INFOPLIST_FILE = dancerealityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stundent.dancerealityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dancereality.app/dancereality";
+			};
+			name = Debug;
+		};
+		2F701264278C675E0045CDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F0D8C86E232E24FF056D453C /* Pods-dancerealityTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CQAK42NR3;
+				INFOPLIST_FILE = dancerealityTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stundent.dancerealityTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/dancereality.app/dancereality";
+			};
+			name = Release;
+		};
+		2F701266278C675E0045CDB8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A612CA3546E63E6BD871A583 /* Pods-dancereality-dancerealityUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CQAK42NR3;
+				INFOPLIST_FILE = dancerealityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stundent.dancerealityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dancereality;
+			};
+			name = Debug;
+		};
+		2F701267278C675E0045CDB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64C573197586432C2F50570F /* Pods-dancereality-dancerealityUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8CQAK42NR3;
+				INFOPLIST_FILE = dancerealityUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = stundent.dancerealityUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = dancereality;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2F701230278C675D0045CDB8 /* Build configuration list for PBXProject "dancereality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F70125D278C675E0045CDB8 /* Debug */,
+				2F70125E278C675E0045CDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F70125F278C675E0045CDB8 /* Build configuration list for PBXNativeTarget "dancereality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F701260278C675E0045CDB8 /* Debug */,
+				2F701261278C675E0045CDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F701262278C675E0045CDB8 /* Build configuration list for PBXNativeTarget "dancerealityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F701263278C675E0045CDB8 /* Debug */,
+				2F701264278C675E0045CDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2F701265278C675E0045CDB8 /* Build configuration list for PBXNativeTarget "dancerealityUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2F701266278C675E0045CDB8 /* Debug */,
+				2F701267278C675E0045CDB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2F70122D278C675D0045CDB8 /* Project object */;
+}
